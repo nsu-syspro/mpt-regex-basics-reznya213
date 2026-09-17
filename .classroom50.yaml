@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "mpt"
+assignment: "regex-basics"
+owner:
+  username: "reznya213"
+  id: 293038662
+  accepted_at: "2026-09-17T15:23:37Z"
+source:
+  owner: "nsu-syspro"
+  owner_id: 115493553
+  repo: "mpt-regex-basics"
+  branch: "main"
