@@ -1,1 +1,1 @@
-sed --regexp-extended -r -E 's/([^ ]*) ([^ ]*),([0-9]*)$/\2 \1 (\3)/g' data/students.csv > data/students.txt && sed --regexp-extended -r -E 's/([^ ]+) [^ ]+ ([^ ]+) \(( [0-9]+)\)$/\2 \1 (\3)/g' data/students.txt
+sed -E 's/^([^ ]+) ([^ ,]+)( [^,]+)?,([0-9]+)$/\2 \1 (\4)/' data/students.csv > data/students.txt
